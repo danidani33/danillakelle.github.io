@@ -1,0 +1,402 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*---MENU---*/
+.menu{
+    background-color: black;
+    color:whitesmoke;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1px 50px;
+    
+}
+
+
+
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    margin:0;
+}
+.menu img{
+    width: 80px;
+    margin: 0;
+   
+}
+.menu-nav a{
+    text-decoration: none;
+    
+    
+    font-size:18px;
+    color: whitesmoke;
+    margin-left: 50px;
+    
+}
+
+.menu-nav a:hover{
+    border-bottom: ridge green;
+    color: rgb(69, 189, 75);
+}
+/*---FIM MENU---*/
+
+
+/*---CAPA---*/
+.capa{
+    background-image: url(../img/FLORESTA.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    color:whitesmoke;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.capa a{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 40px;
+   background-color: rgba(0, 0, 0, 0.541);
+    
+
+}
+
+.capa a:hover{
+    background-color:rgba(223, 223, 223, 0.329);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+/*---FIM CAPA---*/
+
+/*---ODS HOME----*/
+
+
+.vd-terra{
+    max-width: 100%;
+    padding: 30px 0 20px 0px;
+   align-items: center;
+   flex-wrap: wrap;
+    
+}
+.vd-terra h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+
+.vd-terra h2{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+.p-vida{
+    text-align: center;
+    font-size: 20px;
+}
+.p-vida2{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(30, 124, 30);
+    
+}
+.vida-terra p{
+    text-align: center;
+    margin:0;
+
+
+}
+.p1{
+    margin-bottom: 48px;
+}
+.container-vd{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.vida-terra{
+    max-width: 400px;
+    text-align: center;
+    margin: 10px;
+    flex:30%;
+    box-shadow: 4px 10px 5px #777777;
+
+}
+.vd-terra img{
+    max-width: 100%;
+    height: 300px;
+
+}
+/*---FIM ODS HOME---*/
+
+/*---OBJETIVOS DS---*/
+
+.objetivo{
+    
+    text-align: center;
+    align-items: center;
+    background-color: #b2c25f7c;
+    padding: 7px;
+}
+.objetivo h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+.objetivo p{
+    font-size: 20px;
+}
+/*---FIM OBJETIVOS DS---*/
+
+
+/*---ODS 15---*/
+
+.ods{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+    
+    padding:70px;
+}
+
+.text-1{
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    flex:50%;
+    align-items: center;
+
+
+    
+}
+
+.text-1 .video{
+    flex: 50%;
+}
+
+/*---FIM ODS 15---*/
+
+
+/*---OBJETIVOS 0DS 15---*/
+.obj-1{
+    padding: 50px;
+    text-align: center;
+    background-color: #b2c25f7c;
+}
+.obj-1 p{
+    font-size: 20px;
+    text-align: justify;
+}
+.obj-1 h1{
+    font-size: 30px;
+}
+/*---FIM OBJETIVOS 0DS 15---*/
+
+/*---SOBRE MIM---*/
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+    
+    padding:70px;
+}
+
+.sobre-eu{
+    padding: 30px 50px 0px 50px;
+    text-align: center;
+    align-items: center;
+    flex:50%;
+
+    
+    
+}
+.minha-foto{
+  flex: 50%;
+  padding: 0 0 0 100px;
+}
+
+.sobre-mim p{
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 0 0 0;
+
+}
+.sobre-mim h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.redesocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.imginsta{
+    width: 40px;
+    padding: 10px;
+   
+}
+.imgface{
+    width: 32px;
+}
+/*---RODAPÉ---*/
+
+.fim{
+    background-color:#8DA031 ;
+    text-align: center;
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    border: 3px solid #8DA031  ;
+    border-radius: 30px;
+    font-size: 20px;
+    color: black;
+    padding: 3px;
+    transition-duration: 1s;
+    
+    
+}
+.link:hover{
+    background-color: #8DA031 ;
+    
+}
+
+
+/*------------------------RESPONSIVIDADE----------------------------*/
+
+@media (max-width:760px){
+
+    /*-------------------------FIM MENU---------------------------*/
+/*.menu{
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 50px 0 0;  
+}*/
+.menu{
+    display: none;
+}
+/*.menu-nav{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.menu-nav a{
+    padding: 6px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.menu img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+}*/
+
+/*-------------------------FIM MENU---------------------------*/
+
+/*-------------------------CAPA---------------------------*/
+
+    .capa{
+        flex-direction: column;
+    }
+    /*-------------------------FIM CAPA---------------------------*/
+
+    /*-------------------------ODS HOME---------------------------*/
+    .vd-terra{
+        flex-direction: column;
+    }
+    .container-vd{
+        flex-direction: column;
+    }
+    /*-------------------------FIM ODS HOME---------------------------*/
+
+    /*-------------------------OBJETIVOS ODS---------------------------*/
+    .objetivo img{
+        width: 80%;
+    }
+    /*-------------------------FIM OBJETIVOS ODS---------------------------*/
+
+    
+    
+    /*-------------------------ODS--------------------------*/
+    .ods{
+        flex-direction: column;
+        padding: 20px;
+        
+        
+    }
+    .video{
+        flex: 1;
+        padding: 0 30px 0 0;
+        width: 100%;
+    }
+    .text-1{
+        padding: 0;
+        text-align: center;
+    
+    }
+    .text-1 h2{
+        margin-bottom: 25px;
+    }
+    .obj-1{
+        padding: 20px;
+    }
+
+    .sobre-mim{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .sobre-eu{
+        padding: 0 0 0 0;
+        font-size: 17px;
+    }
+    .minha-foto{
+        padding: 0;
+    
+    }
+    .minha-foto img{
+        width: 220px;
+        height: 150px;
+        
+        padding: 30px;
+       justify-content: center;
+    }
+
+
+
+
+    
+}
+
+    
+
